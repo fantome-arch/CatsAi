@@ -35,8 +35,8 @@ const Step3Onboarding = ({moveToPage}) => {
             <BoxUpload className="h-[100px] w-[100px] opacity-50" />
           </div>
           <div className="flex gap-[18px] items-center">
-            <BoxUpload className="h-[100px] w-[100px]" />
-            <BoxUpload className="h-[100px] w-[100px]" />
+            <BoxUpload className="h-[100px] w-[100px] opacity-50 " />
+            <BoxUpload className="h-[100px] w-[100px] opacity-50 " />
             <BoxUpload className="h-[100px] w-[100px] opacity-50" />
           </div>
         </div>
