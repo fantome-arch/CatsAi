@@ -2,7 +2,7 @@
 import React from "react";
 import { Button } from "./Button";
 import { motion, AnimatePresence } from "framer-motion";
-const Step1Onboarding = ({moveToPage}) => {
+const Step1Onboarding1 = ({moveToPage}) => {
   return (
     <motion.div
       key={1} // Unique key for each screen
@@ -38,4 +38,4 @@ const Step1Onboarding = ({moveToPage}) => {
   );
 };
 
-export default Step1Onboarding;
+export default Step1Onboarding1;

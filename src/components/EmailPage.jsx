@@ -48,7 +48,7 @@ const EmailPage = ({moveToPage}) => {
          </div>
        </div>
        <div className="w-full mt-[22px] flex justify-center items-center">
-         <Button title="Continue" onClick={moveToPage} page={1} />
+         <Button title="Continue" onClick={moveToPage} page={0} />
        </div>
      </motion.div>
    );

@@ -15,8 +15,9 @@ module.exports = {
       fontFamily: {
         mulish: ["Mulish", "sans-serif"],
         dmsans: ["DM Sans","sans-serif"], // Add Mulish from Google Fonts
+        paytone: ["Paytone One","sans-serif"], // Add Mulish from Google Fonts
       },
-      fontWeight: {
+      fontWeight: { 
         header1Weight: 600,
         subHeading1Weight: 400,
         buttonTitle:700,
@@ -37,6 +38,7 @@ module.exports = {
         "generalText3": ["14px", { lineHeight: "18px" }],
         "generalText4": ["16px", { lineHeight: "25px" }],
         "generalText5": ["12px", { lineHeight: "25px" }],
+        "logoText": ["24px", { lineHeight: "32px" }],
        // Custom 3xl size with specific line height 
       },
     },

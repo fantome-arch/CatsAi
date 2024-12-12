@@ -27,6 +27,9 @@ export default function RootLayout({ children }) {
         rel="stylesheet"
       ></link>
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Paytone+One&display=swap" rel="stylesheet"></link>
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link precedence="default" rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" precedence="default" rel="stylesheet"></link>
       <body
