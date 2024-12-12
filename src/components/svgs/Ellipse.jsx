@@ -13,7 +13,7 @@ const Ellipse = (props) => (
       cx="454.56"
       cy="454.56"
       r="454.56"
-      fill="#fff"
+      fill={props.fill ?props.fill:"#fff"}
       transform="rotate(5.488 454.945 454.945)"
     ></circle>
   </svg>
