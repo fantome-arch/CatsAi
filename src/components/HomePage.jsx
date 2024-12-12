@@ -7,10 +7,10 @@ const HomePage = ({moveToPage}) => {
   return (
     <motion.div
       key={2} // Unique key for each screen
-      initial={{ x: "100%" }} // Start off-screen to the right
+      initial={{ x: "100%"}} // Start off-screen to the right
       animate={{ x: 0 }} // Animate to center
       exit={{ x: "-100%" }} // Exit off-screen to the left
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 0.1 }}
       className="absolute flex flex-col z-20 h-full w-full bg-[#FF9393]"
     >
       <div className="absolute w-full h-full z-[22]">
